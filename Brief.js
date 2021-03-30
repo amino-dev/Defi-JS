@@ -149,6 +149,16 @@ function hmTos(h,m){
 }
 console.log("Ex16: " + hmTos(1,10))
 
+//Ex17
+function reverseArr(arr) {
+  var newArr = new Array;
+  for(var i = arr.length-1; i >= 0; i--) {
+    newArr.push(arr[i]);
+  }
+  return ("L'inverse du tableau " + arr + " est "+ newArr + ".");
+}
+console.log("Ex17: " + reverseArr([1,2,5,98,120]) )
+
 //Ex18
 function getLast(){
     let arr = [8,15,74,9]
